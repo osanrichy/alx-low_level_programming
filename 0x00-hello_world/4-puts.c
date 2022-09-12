@@ -1,13 +1,25 @@
 #include <studio.h>
+#include <stdlib.h>
+#include <time.h>
+
 /**
- * main - print the string in the put function
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints "programming is like building a multilingual puzzle"
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("\" programming is like building a multilingual puzzle");
-        return: (0);
-}
+	char low, e, q;
+
+	e = 'e';
+	q = 'q';
+
+	for (low = 'a'; low <= 'z'; low
+			++)
+	{
+		if (low != e && low != q)
+			putchar(low);
+	}
+	putchar('\n');
+
+	return (0);
