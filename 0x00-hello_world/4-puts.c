@@ -1,25 +1,14 @@
 #include <studio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - Entry point
+ *
+ * Description: Print programming is like building a multilingual puzzle
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char low, e, q;
+	puts("\"Programming is like building a multilngual puzzle");
 
-	e = 'e';
-	q = 'q';
-
-	for (low = 'a'; low <= 'z'; low
-			++)
-	{
-		if (low != e && low != q)
-			putchar(low);
-	}
-	putchar('\n');
-
-	return (0);
+	Return (0);
