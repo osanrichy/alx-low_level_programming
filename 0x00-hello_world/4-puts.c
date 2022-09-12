@@ -1,8 +1,10 @@
 #include <studio.h>
 /**
- * main - Printing
+ * main - print the string in the put function
  *
- * Return: Always 0(Successful)
+ * Description: using the main function
+ * this program prints "programming is like building a multilingual puzzle
+ * Return: Always 0(successful)
  */
 int main(void)
 {
