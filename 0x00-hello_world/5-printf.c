@@ -1,11 +1,15 @@
 #include <studio.h>
-/**
- * main - Print a text
+
+/*
+ * main - Entry point
  *
- * Return: always 0(success)
+ * Description: Print with proper grammar, but the outcome is a piece of art.
+ * 
+ * Return: Always o (Success)
  */
-int main(void)
+ int main(void)
 {
-	printf("with proper grammar,but the outcome is a piece of art,\n");
-	return (0);
+	printf("with proper grammar, but the outcome is a piece of art, \n);
+	return (0)
+
 }
